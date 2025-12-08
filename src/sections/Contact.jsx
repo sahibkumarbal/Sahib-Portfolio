@@ -30,28 +30,28 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_xklfp1d",
+        "template_0l7pbiu",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Sahib Kumar",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "sahibkumarbal789@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "1m6fo2KSMWleMt5eZ"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("success", "You message has been sent!");
+      showAlertMessage("success", "You message has been sent successfully!");
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Something went wrong!");
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section className="relative flex items-center c-space section-spacing" id="contact">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -64,46 +64,50 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            I'm always open to internship opportunities, collaborations, and meaningful projects. 
+            If you have something exciting in mind, let's talk and make it happen together.
+
+            
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label htmlFor="name" className="feild-label">
-              Full Name
+              Your Name
             </label>
             <input
               id="name"
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder=""
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
               required
+              spellCheck="false"
             />
           </div>
           <div className="mb-5">
             <label htmlFor="email" className="feild-label">
-              Email
+              Email Address
             </label>
             <input
               id="email"
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder=""
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
               required
+              spellCheck="false"
             />
           </div>
           <div className="mb-5">
             <label htmlFor="message" className="feild-label">
-              Message
+              Your Message
             </label>
             <textarea
               id="message"
@@ -111,7 +115,7 @@ const Contact = () => {
               type="text"
               rows="4"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder="Write your message here..."
               autoComplete="message"
               value={formData.message}
               onChange={handleChange}
@@ -120,7 +124,8 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
+            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-green-500 hover:bg-green-600 transition duration-200"
+
           >
             {!isLoading ? "Send" : "Sending..."}
           </button>

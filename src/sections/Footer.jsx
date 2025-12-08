@@ -8,14 +8,31 @@ const Footer = () => {
         <p>|</p>
         <p>Privacy Policy</p>
       </div>
-      <div className="flex gap-3">
-        {mySocials.map((social, index) => (
-          <a href={social.href} key={index}>
-            <img src={social.icon} className="w-5 h-5" alt={social.name} />
-          </a>
-        ))}
-      </div>
-      <p>© 2025 Ali. All rights reserved.</p>
+      <div className="flex gap-3 justify">
+  {mySocials.map((social, index) => (
+    <a
+  key={index}
+  href={social.href}
+  target="_blank"
+  rel="noreferrer"
+  className="
+    group flex h-9 w-9 items-center justify-center
+    rounded-md bg-white/10 border border-white/20
+    transition-all duration-200
+    hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
+  "
+>
+    <img
+      src={social.icon}
+      alt={social.name}
+      className="w-5 h-5 object-contain transition-transform duration-200 group-hover:scale-110"
+    />
+</a>
+
+  ))}
+</div>
+
+      <p>© 2025 {new Date().getFullYear()} Sahib Kumar Bal. All rights reserved.</p>
     </section>
   );
 };

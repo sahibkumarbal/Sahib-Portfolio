@@ -225,19 +225,24 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/sahib-kumar-bal/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/sahibkumarbal",
+    icon: "/assets/socials/github.svg",
+  },
+  {
+    name: "LeetCode",
+    href: "https://leetcode.com/u/sahibkumar/",
+    icon: "/assets/socials/leetcode.svg",
+  },
+  {
+    name: "Email",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=sahibkumarbal789@gmail.com",
+    icon: "/assets/socials/Email.svg",
   },
 ];
 
@@ -278,51 +283,51 @@ export const experiences = [
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
+    name: "Aman",
+    username: "@Aman",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    img: "https://robohash.org/Aman",
   },
   {
-    name: "Jill",
-    username: "@jill",
+    name: "Rudra",
+    username: "@Rudra",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    img: "https://robohash.org/Rudra",
   },
   {
-    name: "John",
-    username: "@john",
+    name: "Dinesh",
+    username: "@Dinesh",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    img: "https://robohash.org/Dinesh",
   },
   {
-    name: "Alice",
-    username: "@alice",
+    name: "Bhabesh",
+    username: "@bhabesh",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    img: "https://robohash.org/Bhabesh",
   },
   {
-    name: "Bob",
-    username: "@bob",
+    name: "Swaraj",
+    username: "@Swaraj",
     body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    img: "https://robohash.org/Swaraj",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
+    name: "Subham",
+    username: "@Subham",
     body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
+    img: "https://robohash.org/Subham",
   },
   {
-    name: "Dave",
-    username: "@dave",
+    name: "Satyaprit",
+    username: "@Satyaprit",
     body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
+    img: "https://robohash.org/Satyaprit",
   },
   {
-    name: "Eve",
-    username: "@eve",
+    name: "Arkesh",
+    username: "@Arkesh",
     body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    img: "https://robohash.org/Arkesh",
   },
 ];

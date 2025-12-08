@@ -1,3 +1,4 @@
+import { mySocials } from "../constants";
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
@@ -11,8 +12,30 @@ import Loader from "../components/Loader";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+    <section className="relative flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
       <HeroText />
+      {/* Social Icons under Web Solutions */}
+<div className="absolute left-[10%] top-[62%] flex gap-4 z-40 animate-social-in">
+  {mySocials.map((social, index) => (
+    <a
+      key={index}
+      href={social.href}
+      target="_blank"
+      rel="noreferrer"
+      className="group flex h-12 w-12 items-center justify-center 
+                 rounded-full bg-white/10 backdrop-blur-md border border-white/20
+                 transition-all duration-300 hover:-translate-y-1 
+                 hover:bg-white/20 hover:shadow-[0_0_12px_rgba(255,255,255,0.7)]"
+    >
+      <img
+        src={social.icon}
+        alt={social.name}
+        className="w-6 h-6 transition-transform duration-300 group-hover:scale-125"
+      />
+    </a>
+  ))}
+</div>
+
       <ParallaxBackground />
       <figure
         className="absolute inset-0"
