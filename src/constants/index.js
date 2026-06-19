@@ -1,70 +1,33 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "AI Resume Analyzer",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "An AI-powered platform that analyzes resumes and provides intelligent feedback to improve job application success.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built an AI-based resume evaluation system.",
+      "Analyzes resume quality and provides actionable suggestions.",
+      "Designed to help users create ATS-friendly resumes.",
+      "Focused on improving resume effectiveness and career readiness.",
     ],
-    href: "",
+    href: "https://github.com/sahibkumarbal/AI-Resume-Analyzer",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/ai-resume-analyzer.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "AI",
+        path: "/assets/logos/openai.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
@@ -73,146 +36,112 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 3,
-    title: "Blazor Web App",
+    id: 2,
+    title: "Weather Detection App",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A weather forecasting application that provides real-time weather information and location-based forecasts.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Fetches live weather data using external APIs.",
+      "Displays temperature, humidity, and weather conditions.",
+      "Provides location-based weather monitoring.",
+      "Built with a responsive and user-friendly interface.",
     ],
-    href: "",
+    href: "https://github.com/sahibkumarbal/Weather-Detection",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/weather-detection.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "API",
+        path: "/assets/logos/api.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
+        name: "CSS",
         path: "/assets/logos/css3.svg",
       },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
     ],
   },
+
   {
-    id: 6,
-    title: "Online Learning Platform",
+    id: 3,
+    title: "SwadeshiFit",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A fitness tracking platform designed to help users manage workouts, health goals, and daily fitness activities.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Tracks workouts and fitness progress.",
+      "Provides an organized dashboard for health management.",
+      "Built with modern React architecture.",
+      "Focused on user-friendly fitness monitoring.",
     ],
-    href: "",
+    href: "https://github.com/sahibkumarbal/SwadeshiFit-react",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/swadeshifit.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    title: "AgriGPT",
+    description:
+      "An AI-powered agriculture assistant designed to help farmers make informed decisions and improve productivity.",
+    subDescription: [
+      "Provides agricultural guidance and farming recommendations.",
+      "Uses AI to assist with crop-related queries and farming practices.",
+      "Designed to make agricultural knowledge more accessible.",
+      "Focused on improving decision-making for farmers and agricultural enthusiasts.",
+    ],
+    href: "https://github.com/sahibkumarbal/AgriGPT",
+    logo: "",
+    image: "/assets/projects/agrigpt.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "AI",
+        path: "/assets/logos/openai.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
@@ -248,36 +177,40 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Computer Science Student",
+    job: "Learning & Building Projects",
+    date: "2023 - Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Building full-stack web applications using React and JavaScript.",
+      "Practicing Data Structures and Algorithms on LeetCode.",
+      "Exploring AI-powered applications and machine learning concepts.",
+      "Developing real-world projects to strengthen software engineering skills.",
+      "Actively learning modern web development technologies.",
     ],
   },
+
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Frontend Developer",
+    job: "Personal Projects",
+    date: "2024 - Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built responsive React applications and reusable UI components.",
+      "Developed projects using Vite, Tailwind CSS, and JavaScript.",
+      "Used Git and GitHub for version control and project management.",
+      "Focused on performance, responsiveness, and clean user experiences.",
     ],
   },
+
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "AI & Software Development Enthusiast",
+    job: "Independent Learning",
+    date: "2025 - Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Built AI Resume Analyzer to help users improve resumes.",
+      "Created Weather Detection and SwadeshiFit applications.",
+      "Developed AgriGPT to assist farmers with agricultural information.",
+      "Exploring AI, fintech, and cybersecurity technologies.",
+      "Continuously improving problem-solving and development skills.",
     ],
   },
 ];
